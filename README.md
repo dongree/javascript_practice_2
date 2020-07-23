@@ -1,1 +1,1 @@
-# javascript_rpactice_2
+# javascript_practice_2
