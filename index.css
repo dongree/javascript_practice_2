@@ -4,8 +4,17 @@ body{
 
 
 body{
- color: #ff7675;
+ color: #dff9fb;
 
+}
+
+.js-weather{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  padding: 10px;
+  color: #2ecc71;
+  font-weight: bold;
 }
 
 .form,
@@ -13,10 +22,24 @@ body{
   display: none;
 }
 
-.showing{
-  display: block;
+.showing,
+.js-toDoForm,
+.js-toDoList {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
 }
 
+
+.js-title{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  font-size: 150px;
+}
 
 @keyframes fadeIn {
   from{
